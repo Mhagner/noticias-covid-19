@@ -8,6 +8,10 @@ hr {
     margin-bottom: 30px;
 }
 
+p{
+    text-align: justify;
+}
+
 .navbar {
     display: flex;
     width: 100%;
@@ -15,8 +19,15 @@ hr {
     overflow: auto;
 }
 
+#formulario{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .navbar a {
     float: left;
+    margin: 1px;
     text-align: center;
     padding: 12px;
     color: white;
@@ -36,6 +47,15 @@ hr {
     font-size: 28px;
 }
 
+#footer {
+    padding: 8px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgb(128, 26, 43);
+    color: rgb(246, 238, 238);
+    font-size: 16px;
+}
+
 .title-content {
     text-align: left;
     padding-left: 40px;
@@ -44,12 +64,59 @@ hr {
 }
 
 .video-top {
-    padding: 20px 20px;
-    width: 550px; 
+    padding: 8px 4px;
+    margin: 20px;
+    width: 550px;
     height: 300px;
+    background-color: rgb(255, 252, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.video-top:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .videos {
     display: flex;
     justify-content: center;
+}
+
+
+.image-top {
+    padding: 5px 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(255, 252, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-top:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-image {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.audio-container {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.audio {
+    padding: 20px 20px;
+    margin: 20px;
+    width: 550;
+    height: 40px;
+    background-color:rgb(216, 208, 208);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.audio:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
