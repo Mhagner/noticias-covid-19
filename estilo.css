@@ -1,0 +1,55 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+hr {
+    width: 60%;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: rgb(235, 130, 130);
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(216, 89, 89);
+}
+
+.content-panel {
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(72, 238, 238);
+    color: black;
+    font-size: 28px;
+}
+
+.title-content {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-bottom: 2px;
+}
+
+.video-top {
+    padding: 10px 20px 20px;
+    width: 550px; 
+    height: 300px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
